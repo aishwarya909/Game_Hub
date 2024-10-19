@@ -18,10 +18,10 @@ Play the classic game of Tic Tac Toe against a friend. The first player to line 
 Guess the hidden word by choosing letters. Each incorrect guess adds a part to the hangman figure. You have six tries to guess the word correctly!
 
 ## Technologies Used
-HTML5: For structuring the web pages.
-CSS3: For styling and layout of the games.
-JavaScript: For game logic and interactivity.
-Canvas API: Used in the Pong Game for animations and visual elements
+##### HTML5: For structuring the web pages.
+##### CSS3: For styling and layout of the games.
+##### JavaScript: For game logic and interactivity.
+##### Canvas API: Used in the Pong Game for animations and visual elements
 
 ## Game Hub Homepage
 ![Screenshot 2024-10-19 195838](https://github.com/user-attachments/assets/df70756a-3b8d-4e5e-8d01-d5542e04ba87)
