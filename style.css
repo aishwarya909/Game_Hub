@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    color:rgb(130, 164, 186)
+}
+
+.header-content h1 a{
+    color: rgb(226, 234, 236);
+}
+
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.header-content a:hover{
+    color:rgb(107, 107, 252);
+}
+a:visited{
+    color: whitesmoke;
+}
+.navbar{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height:200px;
+    padding: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('b6.avif');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 400px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h3{
+    font-size: 3vmin;
+}
+
+.header-content h1{
+    font-size:7vmin;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background:#fc036b ;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+@media only screen and (max-width:850px) {
+    .navbar{
+        padding:0;
+    }
+    .logo{
+        position: absolute;
+        top:30px;
+        left:30px;
+    }
+}
